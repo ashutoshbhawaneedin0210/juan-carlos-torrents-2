@@ -56,9 +56,9 @@ module.exports = {
 		{ url: "http://torrentz.eu/feed_verified?q=", interval: 5*MINUTE, important: true, stats: "torrentz", category: CATS },
 
 		// KAT - recent
-		{ url: "https://kat.cr/movies/?rss=1", interval: 8*MINUTE, important: true, stats: "katrss" },
+		{ url: "https://kat.cr/usearch/FRENCH/?rss=1", interval: 8*MINUTE, important: true, stats: "katrss" },
 		{ url: "https://kat.cr/tv/?rss=1", interval: 8*MINUTE, important: true, stats: "katrss" },
-		{ url: "https://kat.cr/highres-movies/?rss=1", interval: 8*MINUTE, important: true, stats: "katrss" },
+		{ url: "https://kat.cr/usearch/french%20category:highres-movies/?rss=1", interval: 8*MINUTE, important: true, stats: "katrss" },
 	
 		// YTS.ag
 		// TODO use custom import logic since we have an imdb_code there, so we don't need to do mapping
